@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+/* @import "~bootstrap/dist/js/bootstrap.bundle.js"; */
+@import "~font-awesome/css/font-awesome.css";
+
+.bg-primary-gray {
+  background-color: #252525 !important
+}
+
+.bg-primary-gold {
+  background-color: #A58242 !important
+}
+
+a, u {
+  text-decoration: none;
+}
+
+.navbar-font-light, a {
+  color: #e0e0e0 !important
+}
+
+.navbar-font-light, a:hover {
+  color: #ffffff !important
+}
+
+.primary-gray {
+  color: #252525 !important
+}
+
+.primary-gold {
+  color: #A58242 !important
+}
+
+.navbar-padding {
+  padding: 0rem 15rem !important
+}
+
+.img-padding {
+  padding: 70px 0px 0px 0px
+}
+
+.Body-padding {
+  padding: 5rem 15rem !important
+}
+
+.img-center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.border-bot {
+  border-bottom: 2px solid #A58242;
+}
+
+.kategorie-ueberschrift {
+  font-size: 120px;
+}
