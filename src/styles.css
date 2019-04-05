@@ -3,59 +3,98 @@
 /* @import "~bootstrap/dist/js/bootstrap.bundle.js"; */
 @import "~font-awesome/css/font-awesome.css";
 
-.bg-primary-gray {
-  background-color: #252525 !important
+body{
+  background: url("assets/img/Kürbis-schmal.png");
+  background-size: 162%;
 }
 
-.bg-primary-gold {
-  background-color: #A58242 !important
+input.form-control,input.form-control:focus{
+  background-color: #636b7b;
+  color: #fff;
+  border: 1px solid #636b7b;
+
 }
 
-a, u {
-  text-decoration: none;
+input.form-control:focus{
+  box-shadow: none;
 }
 
-.navbar-font-light, a {
-  color: #e0e0e0 !important
+button[type=submit].btn{
+  border-radius: 20px;
+  background-color: #04c582;
+  color: #fff;
 }
 
-.navbar-font-light, a:hover {
-  color: #ffffff !important
+div.form-group label:not(.text-danger){
+  color: #545d6a;
+  font-weight: 700;
 }
 
-.primary-gray {
-  color: #252525 !important
+div.form-group.required>label:first-child:after{
+  content:'*';
+  color: #fff;
+  padding-left: 5px;
 }
 
-.primary-gold {
-  color: #A58242 !important
+#toast-container > div {
+  opacity:1;
 }
 
-.navbar-padding {
-  padding: 0rem 15rem !important
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 170px;
 }
 
-.img-padding {
-  padding: 70px 0px 0px 0px
+.wrapped-div {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #2e3137;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
 }
 
-.Body-padding {
-  padding: 5rem 15rem !important
+/* Tabs */
+.tab-header{
+  text-align: center;
 }
 
-.img-center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.tab-header h2.active {
+  color: #fff;
+  border-bottom: 4px solid #fff;
 }
 
-.border-bot {
-  border-bottom: 2px solid #A58242;
+.tab-header h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  display:inline-block;
+  padding: 30px 40px 10px 40px;
+  cursor: pointer;
+  color: #545d6a;
+  border-bottom: 2px solid #545d6a;
 }
 
-.kategorie-ueberschrift {
-  font-size: 120px;
+.tab-header h2:focus {
+    outline: none;
+}
+
+form{
+    margin: 0px 16px;
+}
+
+div.form-group input.invalid{
+  border: 1px solid #dc3545;
+}
+div.form-group label:first-child{
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
