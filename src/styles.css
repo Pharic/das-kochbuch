@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-/* @import "~bootstrap/dist/js/bootstrap.bundle.js"; */
 @import "~font-awesome/css/font-awesome.css";
 
+/*
 .bg-primary-gray {
   background-color: #252525 !important
 }
@@ -16,7 +16,7 @@ a, u {
 }
 
 .navbar-font-light, a {
-  color: #e0e0e0 !important
+  color: #e0e0e0
 }
 
 .navbar-font-light, a:hover {
@@ -43,19 +43,43 @@ a, u {
   padding: 5rem 15rem !important
 }
 
-.img-center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+
 
 .border-bot {
   border-bottom: 2px solid #A58242;
 }
 
 .kategorie-ueberschrift {
-  font-size: 120px;
+  font-size: 5vw;
+  font-family: Amarillo;
+}
+
+app-root {
+  display: block;
+  width: 100%;
+}
+*/
+*[class*="col-"]
+{
+  position: inherit !important;
+  width: inherit !important;
+}
+@media(max-width:480px){
+  .col-xs-6
+  {
+    width: 50% !important;
+  }
+}
+
+.img-center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-primary-gray {
+  background-color: #252525 !important
 }
