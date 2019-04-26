@@ -3,6 +3,7 @@ import { UserService } from './../../../services/user.service';
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
+import { getHtmlTagDefinition } from '@angular/compiler';
 
 @Component({
   selector: 'app-login',
@@ -11,8 +12,8 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
   formModel = {
-    UserName: '',
-    Password: ''
+    username: '',
+    password: ''
   };
   constructor(private service: UserService, private router: Router, private toastr: ToastrService) { }
 
@@ -25,10 +26,17 @@ export class LoginComponent implements OnInit {
   onSubmit(form: NgForm) {
     this.service.login(form.value).subscribe(
       (res: any) => {
-        localStorage.setItem('token', res.token);
-        this.router.navigateByUrl('/home');
+        if (Array.isArray(res) && res.length === 1) {
+          // LOGIN FUNKTIONIERT
+          localStorage.setItem('token', res.token);
+          this.router.navigateByUrl('/home');
+        } else {
+          // LOGIN SCHLÄGT FEHL
+          this.toastr.error('Incorrect username or password.', 'Authentication failed.');
+        }
       },
       err => {
+        // SERVER-FEHLER
         if (err.status === 400) {
           this.toastr.error('Incorrect username or password.', 'Authentication failed.');
         } else {

@@ -1,0 +1,106 @@
+{
+  "user": [
+    {
+      "uid": "abc",
+      "username": "hans",
+      "password": "wurst",
+      "createdAt": null,
+      "updatedAt": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null
+    },
+    {
+      "uid": 2,
+      "username": "vxcyvcy",
+      "password": "yxcv",
+      "createdAt": null,
+      "updatedAt": null,
+      "firstName": null,
+      "lastName": null,
+      "email": null
+    },
+    {
+      "password": null,
+      "uid": "T7VeGbJ"
+    },
+    {
+      "password": null,
+      "uid": "sdu2QrR"
+    },
+    {
+      "password": null,
+      "id": "_QmqYOi"
+    },
+    {
+      "password": null,
+      "uid": "VRuZC5o"
+    },
+    {
+      "password": null,
+      "uid": "IOVWPjR"
+    },
+    {
+      "password": null,
+      "uid": "KKRBoUL"
+    },
+    {
+      "password": null,
+      "uid": "qI9JW3G"
+    },
+    {
+      "password": null,
+      "uid": "1NTCg54"
+    }
+  ],
+
+  "units": [
+    {
+      "unitID": null,
+      "label": null,
+      "short_label": null
+    }
+  ],
+
+  "items": [
+    {
+      "itemID": null,
+      "label": null
+    }
+  ],
+
+  "recipes": [
+    {
+      "rID": null,
+      "label": null,
+      "description": null,
+      "uID": null
+    }
+  ],
+
+  "categories": [
+    {
+      "cID": null,
+      "label": null,
+      "uID": null
+    }
+  ],
+
+  "cat2recs": [
+    {
+      "cID": null,
+      "rID": null
+    }
+  ],
+
+  "ingrediants": [
+    {
+      "iID": null,
+      "rID": null,
+      "itemID": null,
+      "unitID": null,
+      "amount": null
+    }
+  ]
+
+}

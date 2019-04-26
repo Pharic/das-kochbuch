@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { jsonpCallbackContext } from '@angular/common/http/src/module';
+import { UserComponent } from './../pages/user/user.component';
 
 @Injectable({
   providedIn: 'root'
@@ -8,12 +10,13 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class UserService {
 
   constructor(private fb: FormBuilder, private http: HttpClient) { }
-  readonly BaseURI = 'http://localhost:54277/api';
+  readonly BaseURI = 'http://localhost:3000';
 
   formModel = this.fb.group({
-    UserName: ['', Validators.required],
-    Email: ['', Validators.email],
-    FullName: [''],
+    username: ['', Validators.required],
+    email: ['', Validators.email],
+    firstName: [''],
+    lastName: [''],
     Passwords: this.fb.group({
       Password: ['', [Validators.required, Validators.minLength(4)]],
       ConfirmPassword: ['', Validators.required]
@@ -35,17 +38,25 @@ export class UserService {
   }
 
   register() {
+
+    const uuidv4 = require('uuid/v4');
+    uuidv4();
+
     const body = {
-      UserName: this.formModel.value.UserName,
-      Email: this.formModel.value.Email,
-      FullName: this.formModel.value.FullName,
-      Password: this.formModel.value.Passwords.Password
+      uid: uuidv4,
+      username: this.formModel.value.UserName,
+      email: this.formModel.value.Email,
+      firstName: this.formModel.value.FirstName,
+      lastName: this.formModel.value.LastName,
+      password: this.formModel.value.Passwords.Password
     };
-    return this.http.post(this.BaseURI + '/ApplicationUser/Register', body);
+
+    return this.http.post(this.BaseURI + '/user', body);
   }
 
   login(formData) {
-    return this.http.post(this.BaseURI + '/ApplicationUser/Login', formData);
+    console.log(formData);
+    return this.http.get(this.BaseURI + '/user?username=' + formData.username + '&password=' + formData.password, formData);
   }
 
   getUserProfile() {
