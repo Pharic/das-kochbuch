@@ -1,0 +1,266 @@
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: Login;
+	}
+	#Login * {
+		margin: 0;
+		padding: 0;
+	}
+	#Login {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-enable-deep-linking: true;
+	}
+	#burger_cheeseburger_close_up_1 {
+		opacity: 1;
+		fill: url(#burger_cheeseburger_close_up_1_A0_Rectangle_2_pattern);
+	}
+	.burger_cheeseburger_close_up_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1620px;
+		height: 1080px;
+		left: -537px;
+		top: 0px;
+	}
+	#Rechter_BG {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.Rechter_BG {
+		position: absolute;
+		overflow: visible;
+		width: 837px;
+		height: 1080px;
+		left: 1083px;
+		top: 0px;
+	}
+	#Rechteck_3 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rechteck_3 {
+		position: absolute;
+		overflow: visible;
+		width: 530px;
+		height: 53px;
+		left: 1237px;
+		top: 570px;
+	}
+	#Rechteck_2 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rechteck_2 {
+		position: absolute;
+		overflow: visible;
+		width: 530px;
+		height: 53px;
+		left: 1237px;
+		top: 683px;
+	}
+	#Melde_dich_f_r_dein_Pers_nlich {
+		opacity: 1;
+		position: absolute;
+		left: 1255px;
+		top: 402px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 495px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(112,112,112,1);
+	}
+	#Email_Adresse {
+		opacity: 1;
+		position: absolute;
+		left: 1237px;
+		top: 540px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 109px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(112,112,112,1);
+	}
+	#Passwort {
+		opacity: 1;
+		position: absolute;
+		left: 1237px;
+		top: 653px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(112,112,112,1);
+	}
+	#ODER {
+		opacity: 1;
+		position: absolute;
+		left: 1480px;
+		top: 842px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(222,227,236,1);
+	}
+	#Rechteck_4 {
+		opacity: 1;
+		fill: rgba(165,130,66,1);
+		stroke: rgb(145, 114, 57);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rechteck_4 {
+		position: absolute;
+		overflow: visible;
+		width: 530px;
+		height: 53px;
+		left: 1237px;
+		top: 766px;
+	}
+	#Rechteck_5 {
+		opacity: 1;
+		fill: rgba(234,234,234,1);
+		stroke: rgb(225, 225, 225);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rechteck_5 {
+		position: absolute;
+		overflow: visible;
+		width: 530px;
+		height: 53px;
+		left: 1237px;
+		top: 885px;
+	}
+	#Anmelden {
+		opacity: 1;
+		position: absolute;
+		left: 1464px;
+		top: 783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Neu_Registrieren {
+		opacity: 1;
+		position: absolute;
+		left: 1439px;
+		top: 901px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 127px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(112,112,112,1);
+	}
+	#Linie_1 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(222, 227, 236);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Linie_1 {
+		overflow: visible;
+		position: absolute;
+		top: 852px;
+		left: 1248px;
+		width: 216px;
+		height: 1px;
+	}
+	#Linie_2 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(222, 227, 236);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Linie_2 {
+		overflow: visible;
+		position: absolute;
+		top: 852px;
+		left: 1540px;
+		width: 216px;
+		height: 1px;
+	}
