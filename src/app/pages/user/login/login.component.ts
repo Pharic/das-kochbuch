@@ -23,12 +23,13 @@ export class LoginComponent implements OnInit {
     }
   }
 
+
   onSubmit(form: NgForm) {
     this.service.login(form.value).subscribe(
       (res: any) => {
         if (Array.isArray(res) && res.length === 1) {
           // LOGIN FUNKTIONIERT
-          localStorage.setItem('token', res.token);
+          localStorage.setItem('token', res['token']);
           this.router.navigateByUrl('/home');
         } else {
           // LOGIN SCHLÄGT FEHL

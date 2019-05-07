@@ -3,6 +3,7 @@ import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from './../pages/user/user.component';
+declare var require: any;
 
 @Injectable({
   providedIn: 'root'
