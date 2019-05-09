@@ -4,6 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from './../pages/user/user.component';
 declare var require: any;
+const uuidv4 = require('uuid/v4');
 
 @Injectable({
   providedIn: 'root'
@@ -18,8 +19,8 @@ export class UserService {
     email: ['', Validators.email],
     firstName: [''],
     lastName: [''],
-    Passwords: this.fb.group({
-      Password: ['', [Validators.required, Validators.minLength(4)]],
+    passwords: this.fb.group({
+      password: ['', [Validators.required, Validators.minLength(4)]],
       ConfirmPassword: ['', Validators.required]
     }, { validator: this.comparePasswords })
 
@@ -30,7 +31,7 @@ export class UserService {
     // passwordMismatch
     // confirmPswrdCtrl.errors={passwordMismatch:true}
     if (confirmPswrdCtrl.errors == null || 'passwordMismatch' in confirmPswrdCtrl.errors) {
-      if (fb.get('Password').value !== confirmPswrdCtrl.value) {
+      if (fb.get('password').value !== confirmPswrdCtrl.value) {
         confirmPswrdCtrl.setErrors({ passwordMismatch: true });
       } else {
         confirmPswrdCtrl.setErrors(null);
@@ -40,17 +41,18 @@ export class UserService {
 
   register() {
 
-    const uuidv4 = require('uuid/v4');
-    uuidv4();
+    const uuid4 = uuidv4();
+
 
     const body = {
-      uid: uuidv4,
-      username: this.formModel.value.UserName,
-      email: this.formModel.value.Email,
-      firstName: this.formModel.value.FirstName,
-      lastName: this.formModel.value.LastName,
-      password: this.formModel.value.Passwords.Password
+      uid: uuid4,
+      username: this.formModel.value.username,
+      email: this.formModel.value.email,
+      firstName: this.formModel.value.firstname,
+      lastName: this.formModel.value.lastname,
+      password: this.formModel.value.passwords.password
     };
+    console.log('body', body);
 
     return this.http.post(this.BaseURI + '/user', body);
   }
@@ -61,6 +63,6 @@ export class UserService {
   }
 
   getUserProfile() {
-    return this.http.get(this.BaseURI + '/UserProfile');
+    return this.http.get(this.BaseURI + '/recipes');
   }
 }
