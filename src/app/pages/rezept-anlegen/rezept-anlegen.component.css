@@ -1,0 +1,5 @@
+.Rezept {
+  position: fixed; /* or absolute */
+  left: 50%;
+  bottom: 0;
+}

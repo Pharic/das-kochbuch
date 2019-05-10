@@ -1,3 +1,13 @@
-<p>
-  rezept-detailseite works!
-</p>
+<div class = 'Details'>
+<div *ngIf="rezept">
+
+    <h2>{{rezept.label | uppercase}} Details</h2>
+    <div><span>id: </span>{{rezept.rid}}</div>
+    <div>
+      <label>name:
+        <input [(ngModel)]="rezept.label" placeholder="name"/>
+      </label>
+    </div>
+
+  </div>
+</div>

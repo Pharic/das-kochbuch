@@ -1,3 +1,14 @@
-<p>
-  rezept-anlegen works!
-</p>
+
+<div class = 'Rezept'>
+    <button type="action" name="action" >Rezept anlegen</button>
+<h2>My recipies</h2>
+<ul class="rezepte">
+  <li *ngFor="let rezept of rezepte"
+    [class.selected]="rezept === selectedRezept"
+    (click)="onSelect(rezept)">
+    <span class="badge">{{rezept.rid}}</span> {{rezept.label}}
+  </li>
+</ul>
+
+</div>
+<app-rezept-detailseite [rezept]="selectedRezept"></app-rezept-detailseite>

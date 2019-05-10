@@ -1,0 +1,5 @@
+.Details {
+  position: fixed; /* or absolute */
+  left: 25%;
+  bottom: 0;
+}
