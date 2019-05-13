@@ -1,12 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-/* @import "~bootstrap/dist/js/bootstrap.bundle.js"; */
 @import "~font-awesome/css/font-awesome.css";
 
-body{
-  background: url("assets/img/Kürbis-schmal.png");
-  background-size: 3100px;
-}
 
 input.form-control,input.form-control:focus{
   background-color: #636b7b;

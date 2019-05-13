@@ -5,6 +5,8 @@ import { UserComponent } from './pages/user/user.component';
 import { RegistrationComponent } from './pages/user/registration/registration.component';
 import { LoginComponent } from './pages/user/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
+import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.component';
+import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/user/login', pathMatch: 'full'},
@@ -15,7 +17,9 @@ const routes: Routes = [
       { path: 'login', component: LoginComponent }
     ]
   },
-  {path: 'home', component: HomeComponent, canActivate: [AuthGuard]}
+  { path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
+  { path: 'rezeptanlegen', component: RezeptAnlegenComponent },
+  { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent }
 ];
 
 @NgModule({

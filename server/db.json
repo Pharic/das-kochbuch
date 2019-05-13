@@ -90,7 +90,15 @@
       "username": "test1",
       "email": null,
       "password": "test1",
-      "id": "A7qnEqH"
+      "id": "A7qnEqH",
+      "token": "123456"
+    },
+    {
+      "uid": "2af28999-967e-40b8-863b-1a0e59ccec85",
+      "username": "test1",
+      "email": "test1@eb.de",
+      "password": "test1",
+      "id": "aOesf5H"
     }
   ],
   "units": [
