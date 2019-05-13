@@ -32,6 +32,7 @@ export class LoginComponent implements OnInit {
           res[0].hasOwnProperty('id')) {
           // LOGIN FUNKTIONIERT
           localStorage.setItem('id', res[0].id);
+          console.log('hier2', localStorage);
           this.router.navigateByUrl('/home');
         } else {
           // LOGIN SCHLÄGT FEHL
