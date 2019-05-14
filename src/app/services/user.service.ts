@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
-import { UserComponent } from './../pages/user/user.component';
+import { UserComponent } from '../pages/user/user.component';
 declare var require: any;
 const uuidv4 = require('uuid/v4');
 
@@ -48,8 +48,8 @@ export class UserService {
       uid: uuid4,
       username: this.formModel.value.username,
       email: this.formModel.value.email,
-      firstName: this.formModel.value.firstname,
-      lastName: this.formModel.value.lastname,
+      firstName: this.formModel.value.firstName,
+      lastName: this.formModel.value.lastName,
       password: this.formModel.value.passwords.password
     };
     console.log('body', body);

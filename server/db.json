@@ -99,6 +99,31 @@
       "email": "test1@eb.de",
       "password": "test1",
       "id": "aOesf5H"
+    },
+    {
+      "uid": "eace058f-dabc-4ae1-9e57-d8faa21241a4",
+      "username": "opa",
+      "email": "opa@oopa.de",
+      "password": "opa1",
+      "id": "yeNA1iY"
+    },
+    {
+      "uid": "2bc0b8ab-15d2-411f-b8e7-6369e4a0b8ad",
+      "username": "oma",
+      "email": "oma@oma.de",
+      "firstName": "oma",
+      "lastName": "oma",
+      "password": "oma1",
+      "id": "M9U6EYE"
+    },
+    {
+      "uid": "cdce8e0b-d571-41e8-98cc-b90afc681be5",
+      "username": "efeffwef",
+      "email": "efwfwe@wdwd",
+      "firstName": "qweqewq",
+      "lastName": "qweqeqwe",
+      "password": "1234",
+      "id": "rxxIN3C"
     }
   ],
   "units": [
