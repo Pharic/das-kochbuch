@@ -6,6 +6,7 @@ import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.co
 import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
 
+// Das Routuing um die richtige Seite angeziegt zu bekommen
  const routes: Routes = [
    { path: '', pathMatch: 'full', component: HomeComponent },
    { path: 'login', component: LoginComponent },
