@@ -9,7 +9,7 @@ import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.co
 import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
 
-// Das Routuing um die richtige Seite angeziegt zu bekommen
+// Das Routuing um die richtige Seite angezeigt zu bekommen
 const routes: Routes = [
   {path: '', redirectTo: '/user/login', pathMatch: 'full'},
   {
