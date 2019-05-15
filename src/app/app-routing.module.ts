@@ -7,7 +7,9 @@ import { LoginComponent } from './pages/user/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.component';
 import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
+import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
 
+// Das Routuing um die richtige Seite angeziegt zu bekommen
 const routes: Routes = [
   {path: '', redirectTo: '/user/login', pathMatch: 'full'},
   {
@@ -19,7 +21,8 @@ const routes: Routes = [
   },
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
   { path: 'rezeptanlegen', component: RezeptAnlegenComponent },
-  { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent }
+  { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent },
+  { path: 'kategorieverwalten', component: KategorieVerwaltenComponent }
 ];
 
 @NgModule({

@@ -17,6 +17,7 @@ import { UserComponent } from './pages/user/user.component';
 import { RegistrationComponent } from './pages/user/registration/registration.component';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { UserService } from './services/user.service';
+import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { UserService } from './services/user.service';
     RezeptDetailseiteComponent,
     HomeComponent,
     UserComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    KategorieVerwaltenComponent
   ],
   imports: [
     BrowserModule,
