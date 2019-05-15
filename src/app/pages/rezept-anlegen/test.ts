@@ -1,4 +1,4 @@
-export class Rezept {
+export interface Rezept {
   rid: number;
   label: string;
   description: string;

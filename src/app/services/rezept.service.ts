@@ -22,6 +22,7 @@ export class HeroService {
   }
 }
 
-getUserProfile() {
+/* getUserProfile() {
   return this.http.get(this.BaseURI + '/recipes');
 }
+ */

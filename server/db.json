@@ -108,9 +108,17 @@
   ],
   "recipes": [
     {
-      "rID": null,
-      "label": null,
-      "description": null,
+      "id": 1,
+      "rID": "1",
+      "label": "Nudeln",
+      "description": "leckere Nudeln",
+      "uID": null
+    },
+    {
+      "id": 2,
+      "rID": "2",
+      "label": "Döner",
+      "description": "",
       "uID": null
     }
   ],

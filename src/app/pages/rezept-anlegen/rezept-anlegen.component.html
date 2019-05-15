@@ -1,9 +1,10 @@
 
 <div class = 'Rezept'>
-    <button type="action" name="action" >Rezept anlegen</button>
+    <button type="action" name="action" (click)="test()" >Rezept anlegen</button>
 <h2>My recipies</h2>
+<div *ngIf="loading" style="color: #fff">loading...</div>
 <ul class="rezepte">
-  <li *ngFor="let rezept of rezepte"
+  <li *ngFor="let rezept of rezepte | async"
     [class.selected]="rezept === selectedRezept"
     (click)="onSelect(rezept)">
     <span class="badge">{{rezept.rid}}</span> {{rezept.label}}
