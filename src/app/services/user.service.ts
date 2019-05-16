@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Router } from '@angular/router';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from '../pages/user/user.component';
 declare var require: any;
@@ -11,7 +12,7 @@ const uuidv4 = require('uuid/v4');
 })
 export class UserService {
 
-  constructor(private fb: FormBuilder, private http: HttpClient) { }
+  constructor(private fb: FormBuilder, private http: HttpClient, private router: Router) { }
   readonly BaseURI = 'http://localhost:3000';
 
   formModel = this.fb.group({
@@ -60,6 +61,11 @@ export class UserService {
   login(formData) {
     console.log(formData);
     return this.http.get(this.BaseURI + '/user?username=' + formData.username + '&password=' + formData.password, formData);
+  }
+
+  logout(){
+    localStorage.removeItem('id');
+    this.router.navigateByUrl('/user/login');
   }
 
   getUserProfile() {
