@@ -20,9 +20,9 @@ const routes: Routes = [
     ]
   },
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
-  { path: 'rezeptanlegen', component: RezeptAnlegenComponent },
-  { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent },
-  { path: 'kategorieverwalten', component: KategorieVerwaltenComponent }
+  { path: 'rezeptanlegen', component: RezeptAnlegenComponent, canActivate: [AuthGuard] },
+  { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent, canActivate: [AuthGuard] },
+  { path: 'kategorieverwalten', component: KategorieVerwaltenComponent, canActivate: [AuthGuard] }
 ];
 
 @NgModule({
