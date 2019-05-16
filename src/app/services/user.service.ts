@@ -4,7 +4,12 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from '../pages/user/user.component';
+import { Http } from '@angular/http';
 declare var require: any;
+import { Observable, of } from 'rxjs';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/delay';
 const uuidv4 = require('uuid/v4');
 
 @Injectable({
@@ -40,7 +45,7 @@ export class UserService {
     }
   }
 
-  register() {
+  async register(): Promise<Observable<any>> {
 
     const uuid4 = uuidv4();
 
@@ -54,8 +59,16 @@ export class UserService {
       password: this.formModel.value.passwords.password
     };
     console.log('body', body);
-
-    return this.http.post(this.BaseURI + '/user', body);
+    const usernameAvailable = await this.checkUsernameNotTaken(body);
+    if (usernameAvailable) {
+      return this.http.post(this.BaseURI + '/user', body);
+    }
+    const response = {
+      errors: [
+        {code: 'DuplicateUserName'}
+      ]
+    };
+    return of(response);
   }
 
   login(formData) {
@@ -63,12 +76,21 @@ export class UserService {
     return this.http.get(this.BaseURI + '/user?username=' + formData.username + '&password=' + formData.password, formData);
   }
 
-  logout(){
+  logout() {
     localStorage.removeItem('id');
     this.router.navigateByUrl('/user/login');
   }
 
-  getUserProfile() {
-    return this.http.get(this.BaseURI + '/recipes');
+  checkUsernameNotTaken(formData): Promise<boolean> {
+    return new Promise((resolve, reject) => {
+      this.http.get( this.BaseURI + '/user?username=' + formData.username)
+        .subscribe((res: Object[]) => {
+          if (res.length === 0) {
+            resolve(true);
+          } else {
+            resolve(false);
+          }
+        });
+    });
   }
 }
