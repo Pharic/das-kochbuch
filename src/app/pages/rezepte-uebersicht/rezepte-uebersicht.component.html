@@ -1,0 +1,11 @@
+ <!--Alle Gerichte aus einer Kategorie-->
+ <div class="col-12 col-md-10">
+  <ul class="list-group list-group-flush" style = "font-size: 1.5rem" *ngFor="let rezept of rezepte">
+
+    <li class="list-group-item">
+      <a href="/rezeptdetailseite">{{rezept.label}}</a>
+    </li>
+
+  </ul>
+
+</div>

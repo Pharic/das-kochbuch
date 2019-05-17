@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import {Subject} from 'rxjs';
+import {Rezept} from '../rezepte-uebersicht/rezept';
 
 @Component({
   selector: 'app-rezept-anlegen',
@@ -7,9 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RezeptAnlegenComponent implements OnInit {
 
-  constructor() { }
+  rezepte = new Subject<Rezept[]>();
+
+
+  constructor(
+    private http: HttpClient
+  ) { }
 
   ngOnInit() {
   }
 
+  recipeAdd() {
+    this.http.post('http://localhost:3000/recipes', {
+      id: 5,
+      rID: '5',
+      label: 'Paprika',
+      description: '',
+      uID: null
+    })
+    .subscribe((res: any) => {
+      console.log(res);
+    });
+  }
 }

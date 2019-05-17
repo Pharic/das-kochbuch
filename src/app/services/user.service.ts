@@ -4,6 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from '../pages/user/user.component';
+import { Rezept } from '../pages/rezepte-uebersicht/rezept';
 declare var require: any;
 const uuidv4 = require('uuid/v4');
 
@@ -69,6 +70,6 @@ export class UserService {
   }
 
   getUserProfile() {
-    return this.http.get(this.BaseURI + '/recipes');
+    return this.http.get(this.BaseURI + '/user');
   }
 }

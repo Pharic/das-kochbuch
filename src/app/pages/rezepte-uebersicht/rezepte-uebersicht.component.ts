@@ -2,15 +2,17 @@ import { UserService } from './../../services/user.service';
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {Subject} from 'rxjs';
-import {Rezept} from '../rezepte-uebersicht/rezept';
+import {Rezept} from './rezept';
 import { RecipeService } from 'src/app/services/recipe.service';
 
+
 @Component({
-  selector: 'app-rezept-detailseite',
-  templateUrl: './rezept-detailseite.component.html',
-  styleUrls: ['./rezept-detailseite.component.css']
+  selector: 'app-rezepte-uebersicht',
+  templateUrl: './rezepte-uebersicht.component.html',
+  styleUrls: ['./rezepte-uebersicht.component.css']
 })
-export class RezeptDetailseiteComponent implements OnInit {
+export class RezeptUebersichtComponent implements OnInit {
+
 
   //rezepte = new Subject<Rezept[]>();
   rezepte;
@@ -18,9 +20,10 @@ export class RezeptDetailseiteComponent implements OnInit {
   constructor( private service: RecipeService, private http: HttpClient) { }
 
   ngOnInit() {
+
     this.service.getUserRecipes().subscribe(
       res => {
-        console.log(res);
+        //console.log(res);
         this.rezepte = res;
       },
       err => {
@@ -28,9 +31,4 @@ export class RezeptDetailseiteComponent implements OnInit {
       },
     );
   }
-  recipeDelete() {
-    this.http.delete('http://localhost:3000/recipes/5').subscribe((res: any) => {
-      console.log(res);
-    });
-    }
-}
+  }

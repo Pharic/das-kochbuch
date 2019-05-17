@@ -18,6 +18,7 @@ import { RegistrationComponent } from './pages/user/registration/registration.co
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { UserService } from './services/user.service';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
+import { RezeptUebersichtComponent } from './pages/rezepte-uebersicht/rezepte-uebersicht.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategor
     HomeComponent,
     UserComponent,
     RegistrationComponent,
-    KategorieVerwaltenComponent
+    KategorieVerwaltenComponent,
+    RezeptUebersichtComponent
+
   ],
   imports: [
     BrowserModule,

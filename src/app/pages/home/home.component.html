@@ -8,72 +8,20 @@
     <div class=" col-12 col-md-2">
         <div class="dropdown">
           <button class="btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Asiatisch
+            Alle
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li class="page-item"><a class="dropdown-item" href="#">Neue Kategorie</a></li>
             <div class="dropdown-divider"></div>
+            <li class="page-item"><a class="dropdown-item" href="#">Asiatisch</a></li>
             <li class="page-item"><a class="dropdown-item" href="#">Gebratenes</a></li>
             <li class="page-item"><a class="dropdown-item" href="#">Fisch</a></li>
             <li class="page-item"><a class="dropdown-item" href="#">Vegetarisch</a></li>
           </div>
         </div>
     </div>
-    <!--Alle Gerichte aus einer Kategorie-->
-    <div class="col-12 col-md-10">
-      <ul class="list-group list-group-flush" style = "font-size: 1.5rem">
-
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Hackbraten mit Soße</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in Dapibus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Morbi leo risus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Porta ac consectetur ac</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Vestibulum at eros</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in Dapibus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Morbi leo risus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Porta ac consectetur ac</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Vestibulum at eros</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in Dapibus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Morbi leo risus</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Porta ac consectetur ac</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Vestibulum at eros</a>
-        </li>
-        <li class="list-group-item">
-          <a href="/rezeptdetailseite">Dapibus ac facilisis in</a>
-        </li>
-      </ul>
-    </div>
   </div>
 </div>
+<app-rezepte-uebersicht *ngIf="userDetails != null"></app-rezepte-uebersicht>
 <app-footer></app-footer>
 
