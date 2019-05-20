@@ -17,12 +17,10 @@ export class RegistrationComponent implements OnInit {
   }
 
   async onSubmit(ev: Event) {
-    console.log('hier', ev);
     ev.preventDefault();
     const obs = await this.service.register();
     obs.subscribe(
       (res: any) => {
-        console.log('subscribe', res);
         if (res.errors === undefined) {
           this.service.formModel.reset();
           this.toastr.success('New user created!', 'Registration successful.');
@@ -31,7 +29,6 @@ export class RegistrationComponent implements OnInit {
           res.errors.forEach(element => {
             switch (element.code) {
               case 'DuplicateUserName':
-              console.log('du');
                 this.toastr.error('Username is already taken', 'Registration failed.');
                 break;
 

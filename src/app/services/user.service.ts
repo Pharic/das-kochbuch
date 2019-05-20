@@ -58,7 +58,7 @@ export class UserService {
       lastName: this.formModel.value.lastName,
       password: this.formModel.value.passwords.password
     };
-    console.log('body', body);
+
     const usernameAvailable = await this.checkUsernameNotTaken(body);
     if (usernameAvailable) {
       return this.http.post(this.BaseURI + '/user', body);
@@ -72,7 +72,6 @@ export class UserService {
   }
 
   login(formData) {
-    console.log(formData);
     return this.http.get(this.BaseURI + '/user?username=' + formData.username + '&password=' + formData.password, formData);
   }
 
