@@ -58,7 +58,6 @@ export class UserService {
       lastName: this.formModel.value.lastName,
       password: this.formModel.value.passwords.password
     };
-
     const usernameAvailable = await this.checkUsernameNotTaken(body);
     if (usernameAvailable) {
       return this.http.post(this.BaseURI + '/user', body);
