@@ -17,12 +17,10 @@ export class RegistrationComponent implements OnInit {
   }
 
   async onSubmit(ev: Event) {
-    console.log('hier', ev);
     ev.preventDefault();
     const obs = await this.service.register();
     obs.subscribe(
       (res: any) => {
-        console.log('subscribe', res);
         if (res.errors === undefined) {
           this.service.formModel.reset();
           this.toastr.success('New user created!', 'Registration successful.');
