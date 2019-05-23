@@ -3,11 +3,23 @@
 <img class= "img-padding" src="assets/img/Kürbis-schmal.png" style="width: 100%; padding-top: 70px;">
 
 <!--Eingabefled um den Namen des Rezeptes anzulegen-->
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
 <div class="container" style = "margin-top: 5rem">
   <div style="font-size: 2rem;">
     <form style="width: 100%;">
       <label for="Zutat" style="width: 100%;">
         <input id="Zutat" name="Zutat" placeholder="Name des Rezeptes..." style="border: 1px solid gray; padding: 5px 10px; box-shadow: none; width: 100%">
+
+          <form [formGroup]="profileForm">
+
+            <label>
+              Name des Rezeptes
+              <input type="text" formControlName="label">
+            </label>
+
+
+          </form>
+
       </label>
     </form>
   </div>
@@ -88,7 +100,8 @@
 </div>
 
 <!--Speichern Button-->
-<button type = "action" name="action" (click)="recipeAdd()">
+
+<button type = "submit" name="action" (click)="recipeAdd()"></button>
 <div class="container" style="padding-top: 3rem;">
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12">
@@ -96,6 +109,6 @@
       </div>
   </div>
 </div>
-</button>
+</form>
 
 <app-footer></app-footer>

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {Subject} from 'rxjs';
 import {Rezept} from '../rezepte-uebersicht/rezept';
+import { NgForm } from '@angular/forms';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-rezept-anlegen',
@@ -11,6 +13,11 @@ import {Rezept} from '../rezepte-uebersicht/rezept';
 export class RezeptAnlegenComponent implements OnInit {
 
   rezepte = new Subject<Rezept[]>();
+
+  profileForm = new FormGroup({
+    label: new FormControl(''),
+    description: new FormControl(''),
+  });
 
 
   constructor(
@@ -22,7 +29,6 @@ export class RezeptAnlegenComponent implements OnInit {
 
   recipeAdd() {
     this.http.post('http://localhost:3000/recipes', {
-      id: 5,
       rID: '5',
       label: 'Paprika',
       description: '',
@@ -32,4 +38,16 @@ export class RezeptAnlegenComponent implements OnInit {
       console.log(res);
     });
   }
-}
+
+  onSubmit(form: NgForm) {
+console.log(this.profileForm)
+
+    this.http.post('http://localhost:3000/recipes',{
+      rID: '5',
+      label: this.profileForm.value.label,
+      description: this.profileForm.value.description,
+      uID: null
+    }).subscribe((res: any) => {
+      console.log(res);
+    });
+}}

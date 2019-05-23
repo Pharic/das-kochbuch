@@ -8,6 +8,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.component';
 import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
+import {ExtraOptions} from '@angular/router'
+
+const routerOptions: ExtraOptions = {
+  anchorScrolling: 'enabled',
+};
 
 // Das Routuing um die richtige Seite angezeigt zu bekommen
 const routes: Routes = [
@@ -25,8 +30,10 @@ const routes: Routes = [
   { path: 'kategorieverwalten', component: KategorieVerwaltenComponent, canActivate: [AuthGuard] }
 ];
 
+
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

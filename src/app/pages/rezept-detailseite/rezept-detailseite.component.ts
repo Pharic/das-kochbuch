@@ -28,8 +28,9 @@ export class RezeptDetailseiteComponent implements OnInit {
       },
     );
   }
-  recipeDelete() {
-    this.http.delete('http://localhost:3000/recipes/5').subscribe((res: any) => {
+  recipeDelete(id: any) {
+    console.log(id);
+    this.http.delete('http://localhost:3000/recipes/'+ id).subscribe((res: any) => {
       console.log(res);
     });
     }
