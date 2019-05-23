@@ -49,7 +49,6 @@ export class UserService {
 
     const uuid4 = uuidv4();
 
-
     const body = {
       uid: uuid4,
       username: this.formModel.value.username,
