@@ -40,10 +40,8 @@ export class RezeptAnlegenComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-console.log(this.profileForm)
 
     this.http.post('http://localhost:3000/recipes',{
-      rID: '5',
       label: this.profileForm.value.label,
       description: this.profileForm.value.description,
       uID: null
