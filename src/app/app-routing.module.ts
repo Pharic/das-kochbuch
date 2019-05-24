@@ -14,6 +14,7 @@ const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
 };
 
+
 // Das Routuing um die richtige Seite angezeigt zu bekommen
 const routes: Routes = [
   {path: '', redirectTo: '/user/login', pathMatch: 'full'},
