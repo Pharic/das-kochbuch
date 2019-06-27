@@ -144,57 +144,50 @@
       "id": 2,
       "rID": "2",
       "label": "Döner",
-      "description": "Döner",
+      "description": "Wie man Döner richtig zubereitet:",
       "uid": "63cf703b-4a80-494b-bcb3-a719d2ed2932"
     },
     {
       "id": 4,
       "rID": "4",
-      "label": "Suppe",
-      "description": "Suppe",
+      "label": "Hühnersuppe",
+      "description": "Wie man eine Hühnersuppe richtig zubereitet...",
       "uid": "63cf703b-4a80-494b-bcb3-a719d2ed2932"
     },
     {
       "rID": "5",
-      "label": "Paprika",
-      "description": "",
+      "label": "Pommes",
+      "description": "Zubereitung von Pommes...",
       "uID": null,
       "id": 6
     },
     {
       "rID": "5",
-      "label": "Paprika",
-      "description": "",
+      "label": "Bürger",
+      "description": "Zubereitung eines Burgers...",
       "uID": null,
       "id": 7
     },
     {
       "rID": "5",
-      "label": "Paprika",
-      "description": "",
+      "label": "Chili con Carne",
+      "description": "Zubereitung einer Chili con Carne...",
       "uID": null,
       "id": 8
     },
     {
       "rID": "5",
-      "label": "Paprika",
-      "description": "",
+      "label": "Steak",
+      "description": "Wie man richtig ein Steak macht...",
       "uID": null,
       "id": 9
     },
     {
       "rID": "5",
-      "label": "Paprika",
-      "description": "",
+      "label": "Wurst",
+      "description": "Wie bereitet man die perfekt Wurst auf dem Grill zu...",
       "uID": null,
       "id": 10
-    },
-    {
-      "rID": "5",
-      "label": "test",
-      "description": "test",
-      "uID": null,
-      "id": 11
     }
   ],
   "categories": [

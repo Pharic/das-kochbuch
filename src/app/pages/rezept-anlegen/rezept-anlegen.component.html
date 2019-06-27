@@ -8,20 +8,14 @@
   <div style="font-size: 2rem;">
     <form style="width: 100%;">
       <label for="Zutat" style="width: 100%;">
-        <input id="Zutat" name="Zutat" placeholder="Name des Rezeptes..." style="border: 1px solid gray; padding: 5px 10px; box-shadow: none; width: 100%">
+
 
           <form [formGroup]="profileForm">
 
             <label>
               Name des Rezeptes
-              <input type="text" formControlName="label">
+              <input type="text" formControlName="label" style="border: 1px solid gray; padding: 5px 10px; box-shadow: none; width: 100%">
             </label>
-            <label>
-              Name des Rezeptes
-              <input type="text" formControlName="description">
-            </label>
-
-
           </form>
 
       </label>
@@ -93,11 +87,12 @@
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-12 col-md-10">
-      <form>
+        <form [formGroup]="profileForm">
         <label for="zubereitung" style="width: 100%;">
-          <textarea rows="25" placeholder="So wird das Rezept zubereitet..." style="border: 1px solid gray; padding: 5px 10px; box-shadow: none; width: 100%"></textarea>
-        </label>
-       </form>
+            Zubereitung
+            <input type="text" formControlName="description" style="border: 1px solid gray; padding: 5px 10px; box-shadow: none; width: 100%">
+          </label>
+        </form>
     </div>
     <div class="col-md-1"></div>
   </div>

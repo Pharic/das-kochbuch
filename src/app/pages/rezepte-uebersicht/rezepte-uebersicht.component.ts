@@ -13,8 +13,6 @@ import { RecipeService } from 'src/app/services/recipe.service';
 })
 export class RezeptUebersichtComponent implements OnInit {
 
-
-  //rezepte = new Subject<Rezept[]>();
   rezepte;
 
   constructor( private service: RecipeService, private http: HttpClient) { }
@@ -23,7 +21,6 @@ export class RezeptUebersichtComponent implements OnInit {
 
     this.service.getUserRecipes().subscribe(
       res => {
-        //console.log(res);
         this.rezepte = res;
       },
       err => {
