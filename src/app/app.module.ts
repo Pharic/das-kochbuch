@@ -19,6 +19,8 @@ import { AuthInterceptor } from './auth/auth.interceptor';
 import { UserService } from './services/user.service';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
 import { RezeptUebersichtComponent } from './pages/rezepte-uebersicht/rezepte-uebersicht.component';
+import { KategorieAnlegenComponent } from './pages/kategorie-anlegen/kategorie-anlegen.component';
+import { RezeptAktualisierenComponent } from './pages/rezept-aktualisieren/rezept-aktualisieren.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { RezeptUebersichtComponent } from './pages/rezepte-uebersicht/rezepte-ue
     UserComponent,
     RegistrationComponent,
     KategorieVerwaltenComponent,
-    RezeptUebersichtComponent
+    RezeptUebersichtComponent,
+    KategorieAnlegenComponent,
+    RezeptAktualisierenComponent
 
   ],
   imports: [

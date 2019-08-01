@@ -8,12 +8,12 @@
     <div class=" col-12 col-md-2">
         <div class="dropdown">
           <button class="btn btn-light btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Alle
+            Kategorien
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li class="page-item"><a class="dropdown-item" href="#">Neue Kategorie</a></li>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <!-- *ngFor="let Kategorie of kategorie" -->
+            <li class="page-item"><a class="dropdown-item" href="/kategorieanlegen">Neue Kategorie</a></li>
             <div class="dropdown-divider"></div>
-            <li class="page-item"><a class="dropdown-item" href="#">Asiatisch</a></li>
+            <li class="page-item"><a class="dropdown-item" href="#">Asiatisch</a></li> <!--{{Kategorie.label}}-->
             <li class="page-item"><a class="dropdown-item" href="#">Gebratenes</a></li>
             <li class="page-item"><a class="dropdown-item" href="#">Fisch</a></li>
             <li class="page-item"><a class="dropdown-item" href="#">Vegetarisch</a></li>

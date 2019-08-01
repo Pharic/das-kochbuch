@@ -4,77 +4,16 @@
 
 <!--Eine List aus allen Kategorien mit einem icon um sie zu löschen-->
 <div class="container" style ="margin-top: 5rem">
-  <div class="row">
+  <div class="row" *ngFor="let Kategorie of kategorie">
     <div class="col-12 col-md-12">
       <ul class="list-group list-group-flush" style = "font-size: 1.5rem">
-        <li class="list-group-item">Hackbraten mit Soße
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Dapibus ac facilisis in Da
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Morbi leo risus
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Porta ac consectetur ac
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Vestibulum at eros
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Dapibus ac facilisis in
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Morbi leo risus
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Porta ac consectetur ac
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Vestibulum at eros
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Dapibus ac facilisis in
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Morbi leo risus
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Porta ac consectetur ac
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
-        </li>
-        <li class="list-group-item">Vestibulum at eros
-          <a href="#">
-            <img class= "img-padding" src="assets/img/delete-icon.svg" style="height: 2rem; float:right;">
-          </a>
+        <li class="list-group-item">{{Kategorie.label}}
+            <button type="action" name="action" (click)="kategorieDelete(Kategorie.id)"  style="width: 2rem; float: right;">
+          <img src="assets/img/delete-icon.svg">
+        </button>
         </li>
       </ul>
     </div>
   </div>
 </div>
-
 <app-footer></app-footer>

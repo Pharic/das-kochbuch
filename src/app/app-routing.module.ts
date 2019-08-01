@@ -8,7 +8,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { RezeptAnlegenComponent } from './pages/rezept-anlegen/rezept-anlegen.component';
 import { RezeptDetailseiteComponent } from './pages/rezept-detailseite/rezept-detailseite.component';
 import { KategorieVerwaltenComponent } from './pages/kategorie-verwalten/kategorie-verwalten.component';
-import {ExtraOptions} from '@angular/router'
+import { RezeptUebersichtComponent } from './pages/rezepte-uebersicht/rezepte-uebersicht.component';
+import { KategorieAnlegenComponent } from './pages/kategorie-anlegen/kategorie-anlegen.component';
+import { RezeptAktualisierenComponent } from './pages/rezept-aktualisieren/rezept-aktualisieren.component';
+import {ExtraOptions} from '@angular/router';
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -28,7 +31,10 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard]},
   { path: 'rezeptanlegen', component: RezeptAnlegenComponent, canActivate: [AuthGuard] },
   { path: 'rezeptdetailseite', component: RezeptDetailseiteComponent, canActivate: [AuthGuard] },
-  { path: 'kategorieverwalten', component: KategorieVerwaltenComponent, canActivate: [AuthGuard] }
+  { path: 'kategorieverwalten', component: KategorieVerwaltenComponent, canActivate: [AuthGuard] },
+  { path: 'rezepteuebersicht', component: RezeptUebersichtComponent, canActivate: [AuthGuard] },
+  { path: 'kategorieanlegen', component: KategorieAnlegenComponent, canActivate: [AuthGuard] },
+  { path: 'rezeptaktualisieren', component: RezeptAktualisierenComponent, canActivate: [AuthGuard] }
 ];
 
 

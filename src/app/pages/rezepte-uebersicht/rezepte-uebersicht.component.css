@@ -1,0 +1,1249 @@
+#Etikette {
+  opacity: 1;
+  fill: url(#Etikette_A2_Rectangle_2_pattern);
+}
+.Etikette {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 891px;
+  left: 0px;
+  top: 119px;
+}
+#Logo_gro_ {
+  opacity: 1;
+  fill: url(#Logo_gro__A2_Rectangle_4_pattern);
+}
+.Logo_gro_ {
+  position: absolute;
+  overflow: visible;
+  width: 614px;
+  height: 614px;
+  left: 653px;
+  top: 257px;
+}
+#Linie_kurz {
+  opacity: 1;
+  fill: transparent;
+  stroke: rgb(165, 130, 66);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Linie_kurz {
+  overflow: visible;
+  position: absolute;
+  top: 1410px;
+  left: 372px;
+  width: 185px;
+  height: 2px;
+}
+#Linie_lang {
+  opacity: 1;
+  fill: transparent;
+  stroke: rgb(165, 130, 66);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Linie_lang {
+  overflow: visible;
+  position: absolute;
+  top: 1410px;
+  left: 615px;
+  width: 933px;
+  height: 2px;
+}
+#Hackbraten_mit_So_e_ {
+  opacity: 1;
+  position: absolute;
+  left: 251px;
+  top: 1199px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 756px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Amarillo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  color: rgba(165,130,66,1);
+}
+#Gerichte_Liste {
+  opacity: 1;
+  position: absolute;
+  width: 194px;
+  height: 1023px;
+  left: 611px;
+  top: 1431px;
+  overflow: visible;
+}
+#Hack {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Eier {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 58px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 51px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Rote_Zwiebel {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 116px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 175px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Wei_e_Zwiebel {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 174px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 195px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Rotwein {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 232px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Zucker {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 290px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 93px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Salz {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 348px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 59px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Pfeffer {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 406px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 91px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Hack_A2_Text_10 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 464px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Eier_A2_Text_11 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 522px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 51px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Rote_Zwiebel_A2_Text_12 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 580px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 175px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Wei_e_Zwiebel_A2_Text_13 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 638px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 195px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Rotwein_A2_Text_14 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 696px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Zucker_A2_Text_15 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 754px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 93px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Salz_A2_Text_16 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 812px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 59px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Pfeffer_A2_Text_17 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 870px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 91px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Hack_A2_Text_18 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 928px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Eier_A2_Text_19 {
+  opacity: 1;
+  position: absolute;
+  left: 0px;
+  top: 986px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 51px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Taskleiste {
+  opacity: 1;
+  position: absolute;
+  width: 1920px;
+  height: 119px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Hintergrund {
+  opacity: 1;
+  fill: rgba(37,37,37,1);
+}
+.Hintergrund {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 119px;
+  left: 0px;
+  top: 0px;
+}
+#Zu_den_Rezepten {
+  opacity: 1;
+  position: absolute;
+  left: 685px;
+  top: 47px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 157px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(255,255,255,1);
+}
+#Rezept_anlegen {
+  opacity: 1;
+  position: absolute;
+  left: 888px;
+  top: 47px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 145px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(255,255,255,1);
+}
+#Suchen {
+  opacity: 1;
+  position: absolute;
+  left: 1079px;
+  top: 47px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 71px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(255,255,255,1);
+}
+#dKB_Logo {
+  opacity: 1;
+  fill: url(#dKB_Logo_A2_Rectangle_7_pattern);
+}
+.dKB_Logo {
+  position: absolute;
+  overflow: visible;
+  width: 119px;
+  height: 119px;
+  left: 283px;
+  top: 0px;
+}
+#Abmelden {
+  opacity: 1;
+  position: absolute;
+  left: 1473px;
+  top: 47px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 95px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  color: rgba(255,255,255,1);
+}
+#Logout_Icon {
+  opacity: 1;
+  position: absolute;
+  width: 28.931px;
+  height: 25.338px;
+  left: 1431.591px;
+  top: 46.662px;
+  overflow: visible;
+}
+#Rechteck_6 {
+  opacity: 1;
+  fill: rgba(255,255,255,1);
+}
+.Rechteck_6 {
+  position: absolute;
+  overflow: visible;
+  width: 18.441px;
+  height: 4.253px;
+  left: 10.49px;
+  top: 0px;
+}
+#Gruppe_1 {
+  opacity: 1;
+  position: absolute;
+  width: 18.441px;
+  height: 4.253px;
+  left: 10.49px;
+  top: 21.085px;
+  overflow: visible;
+}
+#Rechteck_7 {
+  opacity: 1;
+  fill: rgba(255,255,255,1);
+}
+.Rechteck_7 {
+  position: absolute;
+  overflow: visible;
+  width: 18.441px;
+  height: 4.253px;
+  left: 0px;
+  top: 0px;
+}
+#Gruppe_2 {
+  opacity: 1;
+  transform: rotate(90deg);
+  transform-origin: left;
+  position: absolute;
+  width: 18.441px;
+  height: 4.253px;
+  left: 24.677px;
+  top: 3.342px;
+  overflow: visible;
+}
+#Rechteck_8 {
+  opacity: 1;
+  fill: rgba(255,255,255,1);
+}
+.Rechteck_8 {
+  position: absolute;
+  overflow: visible;
+  width: 4.253px;
+  height: 18.441px;
+  left: 0px;
+  top: 0px;
+}
+#Gruppe_3 {
+  opacity: 1;
+  transform: rotate(180deg);
+  transform-origin: left;
+  position: absolute;
+  width: 18.441px;
+  height: 4.253px;
+  left: 3.842px;
+  top: 10.543px;
+  overflow: visible;
+}
+#Rechteck_9 {
+  opacity: 1;
+  fill: rgba(255,255,255,1);
+}
+.Rechteck_9 {
+  position: absolute;
+  overflow: visible;
+  width: 18.441px;
+  height: 4.253px;
+  left: 0px;
+  top: 0px;
+}
+#Gruppe_4 {
+  opacity: 1;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  position: absolute;
+  width: 10.793px;
+  height: 7.686px;
+  left: 0px;
+  top: 7.274px;
+  overflow: visible;
+}
+#Pfad_4 {
+  opacity: 1;
+  fill: rgba(255,255,255,1);
+}
+.Pfad_4 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 7.686px;
+  height: 10.793px;
+}
+#ID500_KG {
+  opacity: 1;
+  position: absolute;
+  left: 459px;
+  top: 1431px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID42_ml {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 1489px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID1337_TL {
+  opacity: 1;
+  position: absolute;
+  left: 447px;
+  top: 1547px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID2_L {
+  opacity: 1;
+  position: absolute;
+  left: 515px;
+  top: 1605px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 43px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID69_EL {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 1663px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID222_Briesen {
+  opacity: 1;
+  position: absolute;
+  left: 397px;
+  top: 1721px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 161px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID500_KG_A2_Text_30 {
+  opacity: 1;
+  position: absolute;
+  left: 459px;
+  top: 1779px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID42_ml_A2_Text_31 {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 1837px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID1337_TL_A2_Text_32 {
+  opacity: 1;
+  position: absolute;
+  left: 447px;
+  top: 1895px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID2_L_A2_Text_33 {
+  opacity: 1;
+  position: absolute;
+  left: 515px;
+  top: 1953px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 43px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID69_EL_A2_Text_34 {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 2011px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID222_Briesen_A2_Text_35 {
+  opacity: 1;
+  position: absolute;
+  left: 397px;
+  top: 2069px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 161px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID500_KG_A2_Text_36 {
+  opacity: 1;
+  position: absolute;
+  left: 459px;
+  top: 2127px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID42_ml_A2_Text_37 {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 2185px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID1337_TL_A2_Text_38 {
+  opacity: 1;
+  position: absolute;
+  left: 447px;
+  top: 2243px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID2_L_A2_Text_39 {
+  opacity: 1;
+  position: absolute;
+  left: 515px;
+  top: 2301px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 43px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID69_EL_A2_Text_40 {
+  opacity: 1;
+  position: absolute;
+  left: 481px;
+  top: 2359px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#ID222_Briesen_A2_Text_41 {
+  opacity: 1;
+  position: absolute;
+  left: 397px;
+  top: 2417px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 161px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Zutaten {
+  opacity: 1;
+  position: absolute;
+  left: 615px;
+  top: 1368px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 105px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Menge {
+  opacity: 1;
+  position: absolute;
+  left: 465px;
+  top: 1368px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 93px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Linie_lang_A2_Line_3 {
+  opacity: 1;
+  fill: transparent;
+  stroke: rgb(165, 130, 66);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Linie_lang_A2_Line_3 {
+  overflow: visible;
+  position: absolute;
+  top: 2586px;
+  left: 372px;
+  width: 1176.009px;
+  height: 7px;
+}
+#Zubereitung {
+  opacity: 1;
+  position: absolute;
+  left: 372px;
+  top: 2544px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 163px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Lorem_ipsum_dolor_sit_amet__co {
+  opacity: 1;
+  position: absolute;
+  left: 372px;
+  top: 2591px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 1177px;
+  height: 701px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1);
+}
+#Rechteck_11 {
+  opacity: 1;
+  fill: rgba(37,37,37,1);
+}
+.Rechteck_11 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 118px;
+  left: 0px;
+  top: 3293px;
+}
+#baseline_create_24px {
+  opacity: 1;
+  position: absolute;
+  width: 53.786px;
+  height: 53.786px;
+  left: 1614.241px;
+  top: 1040.214px;
+  overflow: visible;
+}
+#Pfad_6 {
+  opacity: 1;
+  fill: rgba(0,0,0,1);
+}
+.Pfad_6 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 6.718px;
+  left: 6.723px;
+  width: 40.345px;
+  height: 40.345px;
+}
+#Pfad_7 {
+  opacity: 1;
+  fill: transparent;
+}
+.Pfad_7 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 53.786px;
+  height: 53.786px;
+}
+#baseline_delete_24px {
+  opacity: 1;
+  position: absolute;
+  width: 53.786px;
+  height: 53.786px;
+  left: 1690.438px;
+  top: 1040.214px;
+  overflow: visible;
+}
+#Pfad_8 {
+  opacity: 1;
+  fill: rgba(0,0,0,1);
+}
+.Pfad_8 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 6.723px;
+  left: 11.206px;
+  width: 31.375px;
+  height: 40.339px;
+}
+#Pfad_9 {
+  opacity: 1;
+  fill: transparent;
+}
+.Pfad_9 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 53.786px;
+  height: 53.786px;
+}
+#baseline_share_24px {
+  opacity: 1;
+  position: absolute;
+  width: 53.786px;
+  height: 53.786px;
+  left: 1843.182px;
+  top: 1040.214px;
+  overflow: visible;
+}
+#Pfad_10 {
+  opacity: 1;
+  fill: transparent;
+}
+.Pfad_10 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 53.786px;
+  height: 53.786px;
+}
+#Pfad_11 {
+  opacity: 1;
+  fill: rgba(0,0,0,1);
+}
+.Pfad_11 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 4.482px;
+  left: 6.723px;
+  width: 40.339px;
+  height: 44.642px;
+}
+#baseline_star_border_24px {
+  opacity: 1;
+  position: absolute;
+  width: 53.786px;
+  height: 53.786px;
+  left: 1766.282px;
+  top: 1040.214px;
+  overflow: visible;
+}
+#Pfad_15 {
+  opacity: 1;
+  fill: rgba(0,0,0,1);
+}
+.Pfad_15 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 4.482px;
+  left: 4.482px;
+  width: 44.822px;
+  height: 42.58px;
+}
+#Pfad_16 {
+  opacity: 1;
+  fill: transparent;
+}
+.Pfad_16 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 53.786px;
+  height: 53.786px;
+}
+#Deftig {
+  opacity: 1;
+  position: absolute;
+  left: 406px;
+  top: 1132px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  width: 123px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  color: rgba(0,0,0,1);
+}
+#baseline_arrow_left_24px {
+  opacity: 1;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 372px;
+  top: 1147px;
+  overflow: visible;
+}
+#Pfad_17 {
+  opacity: 1;
+  fill: rgba(0,0,0,1);
+}
+.Pfad_17 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 19.863px;
+  height: 9.931px;
+}
+#Pfad_18 {
+  opacity: 1;
+  fill: transparent;
+}
+.Pfad_18 {
+  transform: matrix(1,0,0,1,0,0);
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+}

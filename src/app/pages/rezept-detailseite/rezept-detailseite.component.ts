@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import {Subject} from 'rxjs';
 import {Rezept} from '../rezepte-uebersicht/rezept';
 import { RecipeService } from 'src/app/services/recipe.service';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-rezept-detailseite',
@@ -30,7 +31,7 @@ export class RezeptDetailseiteComponent implements OnInit {
   }
   recipeDelete(id: any) {
     console.log(id);
-    this.http.delete('http://localhost:3000/recipes/'+ id).subscribe((res: any) => {
+    this.http.delete('http://localhost:3000/recipes/' + id).subscribe((res: any) => {
       console.log(res);
     });
     }

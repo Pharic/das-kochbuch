@@ -4,20 +4,20 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { jsonpCallbackContext } from '@angular/common/http/src/module';
 import { UserComponent } from '../pages/user/user.component';
-import { Rezept } from '../pages/rezepte-uebersicht/rezept';
-import { TestBed } from '@angular/core/testing';
+import { Kategorie } from '../pages/kategorie-verwalten/kategorie';
+
 
 @Injectable({
   providedIn: 'root'
 })
 
-export class RecipeService {
+export class KategorieService {
 
   constructor(private fb: FormBuilder, private http: HttpClient, private router: Router) { }
   readonly BaseURI = 'http://localhost:3000';
 
-  getUserRecipes() {
-    return this.http.get<Rezept>(this.BaseURI + '/recipes');
+  getUserCategory() {
+    return this.http.get<Kategorie>(this.BaseURI + '/categories');
   }
 
 }

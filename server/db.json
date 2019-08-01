@@ -134,11 +134,10 @@
   ],
   "recipes": [
     {
-      "id": 1,
-      "rID": "1",
       "label": "Nudeln",
-      "description": "Nudeln richtig kochen 1. Ausreichend Wasser Pro 100 g Nudeln mindestens 1 l Wasser; Wasser aufkochen lassen und erst dann salzen. 2. Salz 1 gehäufter TL Salz pro 1 l Wasser. Wer sichergehen möchte, dass das Wasser nicht versalzen ist, sollte probieren. Es soll leicht nach Salz schmecken. 3. Nudeln zugeben Die Nudeln in das sprudelnd kochende Wasser geben und umrühren, damit sie nicht am Topfboden festkleben. 4. Nudeln kochen Frische Nudeln sind meist schon nach wenigen (ca. 3) Minuten fertig; bei fertig gekauften am besten auf die Packungsangabe achten und eine Nudel 1 Minute vorher testen, ob sie bissfest ist. Fertig gegarte Nudeln abgießen, abtropfen lassen und sofort weiterverwenden. Der Italiener an sich vermischt die Nudeln sofort mit der Sauce. 5. Nudeln kalt abschrecken Lieber nicht! Nur für Salate oder einen Auflauf empfehlenswert! Dasselbe gilt für die Öl-in-Kochwasser-Variante: sorgt nur dafür, dass die Sauce weg will – und zwar weg von der Nudel!",
-      "uid": "63cf703b-4a80-494b-bcb3-a719d2ed2932"
+      "description": "Wie man Nudeln richtig zubereitet",
+      "uID": null,
+      "id": 1
     },
     {
       "id": 2,
@@ -148,6 +147,12 @@
       "uid": "63cf703b-4a80-494b-bcb3-a719d2ed2932"
     },
     {
+      "label": "Fisch",
+      "description": "Wie man Fisch richtig zubereitet",
+      "uID": null,
+      "id": 3
+    },
+    {
       "id": 4,
       "rID": "4",
       "label": "Hühnersuppe",
@@ -155,7 +160,13 @@
       "uid": "63cf703b-4a80-494b-bcb3-a719d2ed2932"
     },
     {
-      "rID": "5",
+      "label": "Waffeln",
+      "description": "Wie man Waffeln richtig zubereitet",
+      "uID": null,
+      "id": 5
+    },
+    {
+      "rID": "4",
       "label": "Pommes",
       "description": "Zubereitung von Pommes...",
       "uID": null,
@@ -192,21 +203,25 @@
   ],
   "categories": [
     {
+      "id": 1,
       "cID": "1",
       "label": "Asiatisch",
       "uid": null
     },
     {
+      "id": 2,
       "cID": "2",
       "label": "Gebratenes",
       "uid": null
     },
     {
+      "id": 3,
       "cID": "3",
       "label": "Fisch",
       "uid": null
     },
     {
+      "id": 4,
       "cID": "4",
       "label": "Vegetarisch",
       "uid": null
